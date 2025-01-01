@@ -1,0 +1,33 @@
+.out, .out2, .container{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    border: 1px solid black;
+    width: 130px;
+    height: 130px;
+}
+.in , .operation{
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    font-size: smaller;
+}
+#frst, #frst1{
+    top: 0px;
+    left: 0px;
+}
+#scnd, #scnd2{
+    top: 0px;
+    right: 0px;
+}
+#thrd, #thrd3{
+    bottom: 0px;
+    left: 0px;
+}
+#frth, #frth4{
+    bottom: 0px;
+    right: 0px;
+}
+#frth4 span,#frth span{
+    margin-left: -3px;
+}
